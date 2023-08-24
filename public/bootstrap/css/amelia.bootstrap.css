@@ -173,7 +173,6 @@ html input[type="button"],
 input[type="reset"],
 input[type="submit"] {
   cursor: pointer;
-  -webkit-appearance: button;
 }
 
 button[disabled],
@@ -191,7 +190,6 @@ input[type="search"] {
   -webkit-box-sizing: content-box;
      -moz-box-sizing: content-box;
           box-sizing: content-box;
-  -webkit-appearance: textfield;
 }
 
 input[type="search"]::-webkit-search-cancel-button,
@@ -1799,7 +1797,6 @@ input[type="number"]::-webkit-inner-spin-button {
   font-size: 14px;
   line-height: 1.428571429;
   color: #444444;
-  vertical-align: middle;
   background-color: #ffffff;
   border: 1px solid #cccccc;
   border-radius: 4px;
@@ -1838,7 +1835,6 @@ textarea.form-control {
   padding-left: 20px;
   margin-top: 10px;
   margin-bottom: 10px;
-  vertical-align: middle;
 }
 
 .radio label,
@@ -5972,7 +5968,6 @@ button.close {
   cursor: pointer;
   background: transparent;
   border: 0;
-  -webkit-appearance: none;
 }
 
 .modal-open {
