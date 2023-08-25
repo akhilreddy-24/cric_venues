@@ -6,7 +6,6 @@
     "start": "node ./bin/www"
   },
   "engines": {
-    "node": "~18.12.1",
     "npm": "~9.6.7"
   },
   "dependencies": {
@@ -18,7 +17,6 @@
     "jade": "^0.29.0",
     "mongoose": "^7.4.1",
     "morgan": "~1.9.1",
-    "node": "^18.12.1",
     "nodemon": "^3.0.1",
     "pug": "^3.0.2"
   }
